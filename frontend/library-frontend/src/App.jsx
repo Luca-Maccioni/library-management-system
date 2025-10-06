@@ -1,13 +1,23 @@
 import { useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 function App() {
 
   return (
     <>
-      <h1>Library Management System</h1>
       <Navbar />
+      <h1>Library Management System</h1>
+      <div className='library-timing'>
+        Library timings :
+        <ul>
+          <li>Opening 9:00 am</li>
+          <li>Closing 6:00 pm</li>
+        </ul>
+      </div>
+
+      <Footer />
 
     </>
   )
