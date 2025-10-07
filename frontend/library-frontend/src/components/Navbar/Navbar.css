@@ -5,7 +5,7 @@
     position: fixed;
     top: 0;
     z-index: 100;
-    background-color: #333; 
+    background-color: #0d1226; 
     padding: 10px 0;  
     align-items: center;
     justify-content: space-between;
@@ -18,10 +18,15 @@
 
 .logo {
     font-size: 1.5rem;
+    color: #ffff;
 }
 
 .navbar-right {
     margin-right: 25px;
+}
+
+.navbar-right a {
+    color: #ffff;
 }
 
 .navbar-center {
@@ -32,11 +37,14 @@
 .nav-links {
     list-style-type: none;
     margin: 0;
-
     display: flex;
     gap: 20px;
 }
 
 .nav-links a:hover {
     color: #00bcd4;
+}
+
+.nav-links a {
+    color: #ffff;
 }

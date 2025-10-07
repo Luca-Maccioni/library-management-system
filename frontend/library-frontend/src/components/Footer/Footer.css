@@ -12,7 +12,7 @@
     justify-content: space-between; /* Espacer les colonnes */
     max-width: 1200px; /* Limite la largeur du contenu (optionnel) */
     margin: 0 auto 50px auto; /* Centrer et ajouter un espace sous les liens */
-    text-align: left; 
+    text-align: center; 
 }
 
 .footer-column {
