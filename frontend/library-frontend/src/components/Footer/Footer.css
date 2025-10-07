@@ -1,0 +1,101 @@
+
+
+.footer {
+    background-color: #0d1226; /* Couleur de fond bleu très foncé */
+    color: #ffffff; /* Couleur du texte par défaut (blanc) */
+    padding: 60px 5%; /* Espace intérieur (haut/bas, côtés) */
+    font-family: sans-serif; /* Police de caractères */
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between; /* Espacer les colonnes */
+    max-width: 1200px; /* Limite la largeur du contenu (optionnel) */
+    margin: 0 auto 50px auto; /* Centrer et ajouter un espace sous les liens */
+    text-align: left; 
+}
+
+.footer-column {
+    flex: 1; /* Permet aux colonnes de prendre une part égale de l'espace */
+    min-width: 120px; /* Empêche les colonnes de devenir trop étroites */
+    padding: 0 10px;
+}
+
+.column-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.column-list {
+    list-style: none; /* Supprime les puces */
+    padding: 0;
+    margin: 0;
+}
+
+.column-list a {
+    color: #c7c7c7; /* Couleur des liens (gris clair) */
+    text-decoration: none; /* Supprime le soulignement */
+    font-size: 14px;
+    transition: color 0.2s;
+}
+
+.column-list a:hover {
+    color: #00bcd4;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1); /* Ligne de séparation subtile */
+}
+
+.footer-logo {
+    font-size: 24px;
+    font-weight: 900;
+    border: 2px solid white;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.footer-copyright {
+    font-size: 13px;
+    color: #888888;
+    margin-bottom: 20px;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-socials a {
+    color: #ffffff;
+}
+
+.footer-socials a:hover {
+    color: #00bcd4;
+}
+
+@media (max-width: 768px) {
+    .footer-links-wrapper {
+        flex-wrap: wrap; /* Permet aux colonnes de passer à la ligne */
+        justify-content: flex-start;
+    }
+    
+    .footer-column {
+        width: 50%; /* Deux colonnes par ligne */
+        margin-bottom: 30px;
+    }
+
+    .footer-links-wrapper {
+        margin-bottom: 30px;
+    }
+}
