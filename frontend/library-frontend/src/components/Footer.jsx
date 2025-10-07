@@ -1,4 +1,7 @@
 import './Footer.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookF, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons'; // Icônes de marque (fab)
+import { faRss } from '@fortawesome/free-solid-svg-icons'; // Icône solide (fas)
 
 
 function Footer () {
@@ -65,10 +68,10 @@ function Footer () {
                     </p>
                     
             <div className="footer-socials">
-                <a href="https://facebook.com" aria-label="Facebook"><i className="fab fa-facebook-f"></i></a>
-                <a href="https://twitter.com" aria-label="Twitter"><i className="fab fa-twitter"></i></a>
-                <a href="https://instagram.com" aria-label="Instagram"><i className="fab fa-instagram"></i></a>
-                <a href="https://rss.com" aria-label="RSS Feed"><i className="fas fa-rss"></i></a>
+                <a href="https://facebook.com" aria-label="Facebook"><FontAwesomeIcon icon={faFacebookF} /></a>
+                <a href="https://twitter.com" aria-label="Twitter"><FontAwesomeIcon icon={faTwitter} /></a>
+                <a href="https://instagram.com" aria-label="Instagram"><FontAwesomeIcon icon={faInstagram} /></a>
+                <a href="https://rss.com" aria-label="RSS Feed"><FontAwesomeIcon icon={faRss} /></a>
             </div>
       </div>
     </footer>
