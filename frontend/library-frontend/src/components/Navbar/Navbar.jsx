@@ -18,7 +18,7 @@ function Navbar () {
                         <a href="/">User Login</a>
                     </li>
                     <li>
-                        <a href="/">Sign up</a>
+                        <a href="./Auth/SignUp.jsx">Sign up</a>
                     </li>
                     <li>
                         <a href="/">Admin Login</a>
