@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom';
 import './Navbar.css'
 
 function Navbar () {
@@ -18,7 +19,7 @@ function Navbar () {
                         <a href="/">User Login</a>
                     </li>
                     <li>
-                        <a href="./Auth/SignUp.jsx">Sign up</a>
+                        <Link to="/signup">Sign Up</Link>
                     </li>
                     <li>
                         <a href="/">Admin Login</a>
